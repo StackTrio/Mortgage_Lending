@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Mortgage | Premium Home Loans & Refinance Solutions</title>
+  <meta name="description" content="Aura Mortgage helps families achieve homeownership with confidence. Secure competitive rates, fast approvals, and personalized financial guidance.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       Sticky Navigation Bar
+       ========================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <svg class="logo-icon" viewBox="0 0 32 32">
+          <path d="M16 2L3 13.5h5V28h6V18h4v10h6V13.5h5L16 2z"/>
+          <path d="M16 8.5l8 7V26h-2V15.5l-6-5.25-6 5.25V26h-2V15.5l8-7z" fill="#FFF" opacity="0.3"/>
+        </svg>
+        <span>AURA</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#solutions" class="nav-link">Mortgage Solutions</a>
+        <a href="#calculator" class="nav-link">Calculator</a>
+        <a href="#why-us" class="nav-link">Why Choose Us</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <div class="nav-cta">
+          <a href="#calculator" class="btn btn-primary">Get Pre-Approved</a>
+        </div>
+      </nav>
+
+      <div class="mobile-toggle" id="mobileToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       Hero Section
+       ========================================== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <div class="hero-tagline">Experience Aura Mortgage</div>
+        <h1 class="hero-title">
+          Helping Families Achieve <span>Homeownership</span> with Confidence
+        </h1>
+        <p class="hero-description">
+          We combine transparent advisor guidance, premium digital experiences, and competitive rates to simplify your home buying journey.
+        </p>
+        <div class="hero-ctas">
+          <a href="#calculator" class="btn btn-accent">Apply Now</a>
+          <a href="#contact" class="btn btn-secondary">Schedule Consultation</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-2">
+        <div class="hero-image-wrapper">
+          <!-- Elegant Architecture SVG illustration -->
+          <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #0A2540 0%, #153e66 100%);">
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.8"/>
+                <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.2"/>
+              </linearGradient>
+              <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+                <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+              </linearGradient>
+            </defs>
+            <!-- Background grids/rays -->
+            <line x1="50" y1="0" x2="50" y2="400" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+            <line x1="150" y1="0" x2="150" y2="400" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+            <line x1="250" y1="0" x2="250" y2="400" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+            <line x1="350" y1="0" x2="350" y2="400" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+            <line x1="450" y1="0" x2="450" y2="400" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+            
+            <line x1="0" y1="100" x2="500" y2="100" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+            <line x1="0" y1="200" x2="500" y2="200" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+            <line x1="0" y1="300" x2="500" y2="300" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+            <!-- Abstract Premium Home Geometries -->
+            <path d="M100 350 L250 180 L400 350 Z" fill="url(#grad2)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+            <path d="M180 350 L280 230 L380 350 Z" fill="url(#grad2)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+            
+            <!-- Golden Architectural Accent -->
+            <path d="M220 350 L270 290 L320 350 Z" fill="url(#grad1)"/>
+            
+            <!-- Glowing Sun/Accent Circle -->
+            <circle cx="370" cy="130" r="45" fill="url(#grad1)" />
+            
+            <!-- Glassmorphism card drawing within SVG -->
+            <rect x="50" y="270" width="160" height="90" rx="12" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+            <circle cx="85" cy="305" r="15" fill="#D4AF37" opacity="0.9"/>
+            <rect x="115" y="295" width="70" height="8" rx="4" fill="#FFFFFF" opacity="0.8"/>
+            <rect x="115" y="310" width="45" height="6" rx="3" fill="#FFFFFF" opacity="0.4"/>
+            
+            <!-- Fine lines -->
+            <circle cx="250" cy="180" r="5" fill="#D4AF37"/>
+            <circle cx="280" cy="230" r="5" fill="#FFFFFF"/>
+          </svg>
+        </div>
+        
+        <!-- Floating interactive element -->
+        <div class="hero-badge-float">
+          <div class="hero-badge-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="#D4AF37"/>
+            </svg>
+          </div>
+          <div class="hero-badge-text">
+            <h4>5.25%</h4>
+            <p>Average 30-Year Fixed Rate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Trust Indicators
+       ========================================== -->
+  <section class="trust-section">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-card reveal">
+          <div class="trust-number" data-target="15">0</div>
+          <div class="trust-label">Years of Experience</div>
+        </div>
+        <div class="trust-card reveal delay-1">
+          <div class="trust-number" data-target="24000">0</div>
+          <div class="trust-label">Families Served</div>
+        </div>
+        <div class="trust-card reveal delay-2">
+          <div class="trust-number" data-target="98">0</div>
+          <div class="trust-label">Satisfaction Metric</div>
+        </div>
+        <div class="trust-card reveal delay-3">
+          <div class="trust-number" data-target="4.9">0</div>
+          <div class="trust-label">Google Rating</div>
+        </div>
+
+        <div class="compliance-badges reveal delay-4">
+          <div class="badge-item">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+            </svg>
+            Equal Housing Lender
+          </div>
+          <div class="badge-item">
+            <svg viewBox="0 0 24 24">
+              <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+            </svg>
+            NMLS Approved #40921
+          </div>
+          <div class="badge-item">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 15l-4-4 1.41-1.41L10 13.17l7.59-7.59L19 7l-9 9z"/>
+            </svg>
+            SSL Secured & Encrypted
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Mortgage Solutions Section
+       ========================================== -->
+  <section class="solutions" id="solutions">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tagline">Mortgage Solutions</span>
+        <h2 class="section-title">Financing Tailored to Your Ambitions</h2>
+        <p class="section-description">Choose from our versatile suite of borrowing products, curated for home buyers and real estate investors.</p>
+      </div>
+
+      <div class="solutions-grid">
+        <!-- Solution 1 -->
+        <div class="solution-card reveal">
+          <div class="solution-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+            </svg>
+          </div>
+          <h3>First-Time Home Buyer</h3>
+          <p>Low down payment options, educational guidance, and flexible qualification guidelines to help you acquire your first home.</p>
+          <a href="#calculator" class="btn-link">Explore Program</a>
+        </div>
+
+        <!-- Solution 2 -->
+        <div class="solution-card reveal delay-1">
+          <div class="solution-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M19 8l-4 4h3c0 3.31-2.69 6-6 6-1.01 0-1.97-.25-2.8-.7l-1.46 1.46C8.97 19.54 10.43 20 12 20c4.42 0 8-3.58 8-8h3l-4-4zM6 12c0-3.31 2.69-6 6-6 1.01 0 1.97.25 2.8.7l1.46-1.46C15.03 4.46 13.57 4 12 4c-4.42 0-8 3.58-8 8H1l4 4 4-4H6z"/>
+            </svg>
+          </div>
+          <h3>Refinance Solutions</h3>
+          <p>Lower your interest rates, change your loan term, or cash out equity to fund home improvements and debt consolidation.</p>
+          <a href="#calculator" class="btn-link">Calculate Savings</a>
+        </div>
+
+        <!-- Solution 3 -->
+        <div class="solution-card reveal delay-2">
+          <div class="solution-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+            </svg>
+          </div>
+          <h3>Investment Properties</h3>
+          <p>Expand your real estate portfolio with specialized debt service coverage ratio (DSCR) and non-QM investor products.</p>
+          <a href="#calculator" class="btn-link">View Rates</a>
+        </div>
+
+        <!-- Solution 4 -->
+        <div class="solution-card reveal">
+          <div class="solution-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L2 22h20L12 2zm0 3.99L19.53 19H4.47L12 5.99zM13 16h-2v2h2v-2zm0-6h-2v4h2v-4z"/>
+            </svg>
+          </div>
+          <h3>FHA & VA Loans</h3>
+          <p>Government-backed financing options featuring flexible credit score criteria and zero-down programs for military veterans.</p>
+          <a href="#calculator" class="btn-link">Learn More</a>
+        </div>
+
+        <!-- Solution 5 -->
+        <div class="solution-card reveal delay-1">
+          <div class="solution-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+          </div>
+          <h3>Jumbo Loans</h3>
+          <p>For high-value luxury real estate. Obtain competitive pricing on loan amounts exceeding standard conforming limits.</p>
+          <a href="#calculator" class="btn-link">View Limits</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Mortgage Calculator Preview Section
+       ========================================= -->
+  <section class="calculator-section" id="calculator">
+    <div class="container calculator-grid">
+      <div class="calculator-card reveal">
+        <h3 class="calc-title">Interactive Payment Estimator</h3>
+        
+        <div class="form-group">
+          <div class="label-wrapper">
+            <label for="homePrice">Home Price</label>
+            <span class="value-display" id="homePriceVal">$450,000</span>
+          </div>
+          <input type="range" class="input-range" id="homePrice" min="100000" max="2500000" step="10000" value="450000">
+        </div>
+
+        <div class="form-group">
+          <div class="label-wrapper">
+            <label for="downPayment">Down Payment</label>
+            <span class="value-display" id="downPaymentVal">$90,000 (20%)</span>
+          </div>
+          <input type="range" class="input-range" id="downPayment" min="10000" max="1000000" step="5000" value="90000">
+        </div>
+
+        <div class="form-group">
+          <div class="label-wrapper">
+            <label for="interestRate">Interest Rate</label>
+            <span class="value-display" id="interestRateVal">5.50%</span>
+          </div>
+          <input type="range" class="input-range" id="interestRate" min="1.0" max="12.0" step="0.1" value="5.5">
+        </div>
+
+        <div class="form-group">
+          <div class="label-wrapper">
+            <label for="loanTerm">Loan Term</label>
+          </div>
+          <div class="select-wrapper">
+            <select id="loanTerm" class="calc-select">
+              <option value="30">30 Years, Fixed</option>
+              <option value="15">15 Years, Fixed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="calc-result-panel reveal delay-2">
+        <div class="chart-container">
+          <svg class="chart-svg" width="180" height="180">
+            <circle class="chart-bg" cx="90" cy="90" r="70"></circle>
+            <!-- circumference = 2 * pi * r = 440 -->
+            <circle class="chart-fill" id="chartFill" cx="90" cy="90" r="70" stroke-dasharray="440" stroke-dashoffset="110"></circle>
+          </svg>
+          <div class="chart-text">
+            <span class="chart-label">Est. Payment</span>
+            <span class="chart-value" id="chartValue">$2,450</span>
+          </div>
+        </div>
+
+        <div class="result-breakdown">
+          <div class="breakdown-row">
+            <span class="breakdown-label">Principal & Interest</span>
+            <span class="breakdown-value" id="breakdownPrincipal">$2,044</span>
+          </div>
+          <div class="breakdown-row">
+            <span class="breakdown-label">Property Taxes (Est.)</span>
+            <span class="breakdown-value" id="breakdownTaxes">$450</span>
+          </div>
+          <div class="breakdown-row">
+            <span class="breakdown-label">Home Insurance (Est.)</span>
+            <span class="breakdown-value" id="breakdownInsurance">$131</span>
+          </div>
+        </div>
+        
+        <div style="margin-top: 2rem; width: 100%;">
+          <a href="#calculator" class="btn btn-accent" style="width: 100%;">Apply & Save This Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Why Choose Us Section
+       ========================================== -->
+  <section class="why-us" id="why-us">
+    <div class="container why-grid">
+      <div class="reveal">
+        <span class="section-tagline">Why Choose Us</span>
+        <h2 class="section-title" style="margin: 1.5rem 0;">A Modern Approach to Lending</h2>
+        <p class="section-description" style="margin-bottom: 2rem;">
+          We build relationships on transparency and technology. Discover the advantages of choosing a premium financial advisor.
+        </p>
+        <ul style="display: flex; flex-direction: column; gap: 1rem;">
+          <li style="display: flex; gap: 0.8rem; font-weight: 500;">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="#D4AF37"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            No hidden administration or underwriting fees.
+          </li>
+          <li style="display: flex; gap: 0.8rem; font-weight: 500;">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="#D4AF37"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Real-time digital application tracking.
+          </li>
+          <li style="display: flex; gap: 0.8rem; font-weight: 500;">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="#D4AF37"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Direct 1-on-1 advisor consultations.
+          </li>
+        </ul>
+      </div>
+
+      <div class="why-features reveal delay-2">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+            </svg>
+          </div>
+          <h4>Fast Approvals</h4>
+          <p>Our average approval turnaround is under 14 days, compared to the industry standard of 45.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
+            </svg>
+          </div>
+          <h4>Competitive Rates</h4>
+          <p>We monitor capital markets hourly to guarantee access to the lowest mortgage margins available.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+            </svg>
+          </div>
+          <h4>Personal Service</h4>
+          <p>No generic support centers. You get a direct dedicated loan advisor from query to close.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22c5.52 0 10-4.48 10-10S17.52 2 12 2 2 6.48 2 12s4.48 10 10 10zm1-15h-2v6h2V7zm0 8h-2v2h2v-2z"/>
+            </svg>
+          </div>
+          <h4>Trusted Advisors</h4>
+          <p>Over a decade of navigating complex real estate landscapes and financial portfolios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Customer Testimonials Section
+       ========================================== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tagline">Testimonials</span>
+        <h2 class="section-title">What Our Families Say</h2>
+        <p class="section-description">Read reviews from home owners who secured financing with Aura Mortgage.</p>
+      </div>
+
+      <div class="testimonials-slider" id="testimonialsSlider">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <p class="testimonial-quote">
+            "Aura Mortgage transformed a stressful process into an absolute breeze. The digital application was seamless, and our advisor was always available to explain options."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h5>Marcus & Sarah Chen</h5>
+              <p>Homeowners in Seattle, WA</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <p class="testimonial-quote">
+            "Refinancing with Aura reduced our monthly payment by $320. The advisor did all the heavy lifting and structured everything around our financial goals."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h5>David Vance</h5>
+              <p>Refinance Client in Austin, TX</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <p class="testimonial-quote">
+            "For my investment properties, speed is everything. Aura gets approvals done faster than any bank. Their DSCR rates are highly competitive."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h5>Elena Rostova</h5>
+              <p>Real Estate Investor in Miami, FL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-nav">
+        <span class="nav-dot active"></span>
+        <span class="nav-dot"></span>
+        <span class="nav-dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Final CTA Section
+       ========================================== -->
+  <section class="final-cta" id="contact">
+    <div class="container cta-content reveal">
+      <h2>Start Your Homeownership Journey</h2>
+      <p>Secure premium financial terms and enjoy stress-free approvals with Aura Mortgage. Contact us to schedule a direct consultation today.</p>
+      <div>
+        <a href="#calculator" class="btn btn-accent">Apply Online</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       Premium Footer
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <svg class="logo-icon" viewBox="0 0 32 32">
+              <path d="M16 2L3 13.5h5V28h6V18h4v10h6V13.5h5L16 2z"/>
+              <path d="M16 8.5l8 7V26h-2V15.5l-6-5.25-6 5.25V26h-2V15.5l8-7z" fill="#FFF" opacity="0.3"/>
+            </svg>
+            <span>AURA</span>
+          </a>
+          <p class="footer-desc">
+            Providing premium residential mortgage lending and financial advisory services. We empower homebuyers through competitive financing, cutting-edge calculator tooling, and direct expert transparency.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-icon">
+              <svg viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Mortgage Solutions</h4>
+          <div class="footer-links">
+            <a href="#solutions">First-Time Home Buyer</a>
+            <a href="#solutions">Refinance Loans</a>
+            <a href="#solutions">Investment Real Estate</a>
+            <a href="#solutions">FHA & VA Programs</a>
+            <a href="#solutions">Jumbo Lending</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <div class="footer-links">
+            <a href="#calculator">Mortgage Calculator</a>
+            <a href="#">Knowledge Center</a>
+            <a href="#">Rates & Trends</a>
+            <a href="#">Loan Checklist</a>
+            <a href="#">FAQ Guide</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact & Location</h4>
+          <div class="contact-info">
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              <span>100 Pine Street, Floor 32<br>San Francisco, CA 94111</span>
+            </div>
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              </svg>
+              <span>(800) 555-AURA</span>
+            </div>
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              <span>advisors@auramortgage.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aura Mortgage. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Licenses & Disclosures</a>
+          <a href="#">NMLS Consumer Access</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
